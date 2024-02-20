@@ -1,6 +1,4 @@
 from openai import OpenAI
-
-api_key = "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"
 client = OpenAI(api_key=api_key)
 
 prompt_base = "You are to analyze the following text to determine if its justification for a change in corporate performance is logical. Do not consider any previous inputs. Output exactly one digit: 1 if logical, 0 if not. Text: "
